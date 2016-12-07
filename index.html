@@ -2,62 +2,24 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <title>That Great 90's christmas page</title>
-    <style>
-      body{ margin:0px; background:#000; }
-      #bg_container{ height:0px; overflow:hidden; }
-      #bg{ width:0; height:0px; }
-      #content{ position:absolute; top:0px; padding:0px; color:#FFF; margin-left: auto; margin-right: auto; left: 0; right: 0; }}
-    </style>
-    <style>
-      @keyframes fadeIn {
-  from { opacity: 0; }
-}
-      p {
-        position: relative;
-        top: 100px;
-        font: italic bold 5em/1 Bodoni, serif;
-        color: #ffffff;
-        text-align: center;
-        animation: fadeIn 1s infinite alternate;
-      }
-    </style>
+    <title>Toby Groves</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="bg_container">
-      <iframe id="bg" src="http:///www.youtube.com/embed/t20PflNq-jU?autoplay=1&amp;controls=0&amp;loop=1&amp;showinfo=0&amp;modestbranding=1&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=PLAYLIST_ID_HERE" frameborder="0"></iframe>
-    </div>
-    <img src="http://www.sevenoaksart.co.uk/images/snow-transparent.gif" width="100%" height="100%" position: absolute/>
-    <div id = "content" align="center">
-       <p align="center">Christmas!</p>
-       <div class="w3-content w3-section" style="max-width:500px">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/Snow/poppins2.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/Snow/polask.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/Snow/toboggn3.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/xmas12/xmas237.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/xmas/x145.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/xmas/santa11.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/xmas3/mxmas.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/xmas10/1.gif" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="http://www.heathersanimations.com/xmas14/xmas1540.gif" style="width:100%">
 
+    <!---videobackground---->
+    <div class="fullscreen-bg">
+  	   <video loop autoplay class="fullscreen-bg__video">
+  		     <source src="smoke_color_green.mp4" type="video/mp4" >
+  	   </video>
+    </div>
+    <!---page content---->
+    <div class="content" >
+      <div class="centered">
+        <a href="home.html">
+        <img src="square.png" class="rotated" style="width:50%;height:50%;" />
+        </a>
       </div>
-      <script>
-        var myIndex = 0;
-        carousel();
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}
-          x[myIndex-1].style.display = "block";
-          setTimeout(carousel, 10000);
-        }
-      </script>
     </div>
   </body>
 </html>
