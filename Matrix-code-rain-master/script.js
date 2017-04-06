@@ -1,9 +1,3 @@
-// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
- 
-// requestAnimationFrame polyfill by Erik MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶ller
-// fixes from Paul Irish and Tino Zijdel
- 
 (function() {
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
@@ -28,47 +22,6 @@
             clearTimeout(id);
         };
 }());
-
-// stats
-var stats = new Stats();
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild( stats.domElement );
-
-
-var M = {
-
-	settings: {
-		COL_WIDTH: 15,
-		COL_HEIGHT: 25,
-		VELOCITY_PARAMS: {
-			min: 4,
-			max: 8
-		},
-		CODE_LENGTH_PARAMS: {
-			min: 20,
-			max: 40
-		},
-		videoActive: false
-	},
-
-	animation: null,
-
-	c: null,
-	ctx: null,
-
-	lineC: null,
-	ctx2: null,
-
-	video: null,
-
-	WIDTH: window.innerWidth,
-	HEIGHT: window.innerHeight,
-
-	COLUMNS: null,
-	canvii: [],
 
 	// font from here http://www.dafont.com/matrix-code-nfi.font
 	font: '30px matrix-code',
@@ -142,73 +95,6 @@ var M = {
 
 		stats.update();
 	},
-
-	// this used to be used straight after createCode, without using createCanvii - it allowed
-	// the characters within the code streams to be easily changable, but caused huge perf issues
-	// OLDdraw: function() {
-
-	// 	var codesLen = M.codes.length;
-	// 	var codeLen;
-	// 	var x;
-	// 	var y;
-	// 	var text;
-	// 	var velocity;
-	// 	var columnIndex;
-	// 	var strength;
-	// 	var fadeStrength;
-
-	// 	M.ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
-	// 	M.ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
-	// 	M.ctx.fillRect(0, 0, M.WIDTH, M.HEIGHT);
-
-	// 	M.ctx.globalCompositeOperation = 'source-over';
-
-	// 	for (var i = 0; i < codesLen; i++) {
-			
-	// 		velocity = M.codes[i][0].velocity;
-	// 		M.codes[i][0].position.y += velocity;
-
-	// 		y = M.codes[i][0].position.y;
-	// 		x = M.codes[i][0].position.x;
-	// 		codeLength = M.codes[i].length;
-	// 		strength = M.codes[i][0].strength;
-
-	// 		for (var j = 1; j < codeLength; j++) {
-	// 			text = M.codes[i][j];
-
-	// 			if (j < 5) {
-	// 				M.ctx.shadowColor = 'hsl(104, 79%, 74%)';
-	// 				M.ctx.shadowOffsetX = 0;
-	// 				M.ctx.shadowOffsetY = 0;
-	// 				M.ctx.shadowBlur = 10;
-	// 				M.ctx.fillStyle = 'hsla(104, 79%, ' + (100 - (j * 5)) + '%, ' + strength + ')';
-	// 			} else if (j > (codeLength - 4)) {
-	// 				fadeStrength = j / codeLength;
-	// 				fadeStrength = 1 - fadeStrength;
-
-	// 				M.ctx.shadowOffsetX = 0;
-	// 				M.ctx.shadowOffsetY = 0;
-	// 				M.ctx.shadowBlur = 0;
-	// 				M.ctx.fillStyle = 'hsla(104, 79%, 74%, ' + (fadeStrength + 0.3) + ')';
-	// 			} else {
-	// 				M.ctx.shadowOffsetX = 0;
-	// 				M.ctx.shadowOffsetY = 0;
-	// 				M.ctx.shadowBlur = 0;
-	// 				M.ctx.fillStyle = 'hsla(104, 79%, 74%, ' + strength + ')';
-	// 			}
-
-	// 			// M.ctx.fillStyle = 'hsl(104, 79%, ' + (M.codes[i][0].strength * 74) + '%)';
-	// 			M.ctx.fillText(text, x, (y - (j * M.settings.COL_HEIGHT)));
-
-	// 			if ((j === codeLength - 1) && (y - ((j + 1) * M.settings.COL_HEIGHT) > M.HEIGHT)) {
-	// 				columnIndex = M.codes[i][0].position.x / M.settings.COL_WIDTH;
-	// 				M.codes[columnIndex][0].open = true;
-	// 				M.codes[columnIndex][0].position.y = 0;
-	// 			}
-	// 		}
-	// 	}
-
-	// },
 
 	draw: function() {
 
@@ -335,29 +221,6 @@ var M = {
 		M.codes[i][0].canvas = newCanv;
 
 	},
-
-	// OLD - not using anymore, too heavy on perf
-	// swapCharacters: function() {
-	// 	var randomCodeIndex;
-	// 	var randomCode;
-	// 	var randomCodeLen;
-	// 	var randomCharIndex;
-	// 	var newRandomCharIndex;
-	// 	var newRandomChar;
-
-	// 	for (var i = 0; i < 20; i++) {
-	// 		randomCodeIndex = M.randomFromInterval(0, (M.codes.length - 1));
-	// 		randomCode = M.codes[randomCodeIndex];
-	// 		randomCodeLen = randomCode.length;
-	// 		randomCharIndex = M.randomFromInterval(2, (randomCodeLen - 1));
-	// 		newRandomCharIndex = M.randomFromInterval(0, (M.letters.length - 1));
-	// 		newRandomChar = M.letters[newRandomCharIndex];
-		
-	// 		randomCode[randomCharIndex] = newRandomChar;
-	// 	}
-
-	// 	M.swapCharacters();
-	// },
 
 	createLines: function( ctx ) {
 		var linesYBlack = 0;
