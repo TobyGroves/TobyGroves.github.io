@@ -1,26 +1,26 @@
 title:            Notepad
 description:      "Blogging is fun"
 logo:             logo.png
-disqus_shortname: hmfaysal
+disqus_shortname: Toby Groves
 share:            true
 dropcap:			true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  /Notepad
+url:
 
 # Owner/author information
 owner:
   name:           Hossain Mohd Faysal
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  avatar:         Toby Groves.jpg
+  email:          Toby Groves@alum.mit.edu
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        Toby Groves
+  facebook:       Toby Groves
+  github:         Toby Groves      
+  instagram:      Toby Groves
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -71,8 +71,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/Notepad/'
-  relativeLinks: 'http://hmfaysal.github.io/Notepad/links.jsonp'
+  siteurl: 'http://TobyGroves..github.io'
+  relativeLinks: 'http://TobyGroves.github.io/links.jsonp'
   media: 'images'
   metadata:
     _posts:
