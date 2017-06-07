@@ -3,7 +3,6 @@ layout: page
 permalink: /about/index.html
 title: Toby
 tags: [me, myself,]
-imagefeature: aboutme.jpg
 chart: true
 ---
 
