@@ -1,15 +1,11 @@
 ---
 layout: page
 permalink: /about/index.html
-title: Hossain Mohd Faysal
-tags: [Hossain, Mohd, Faysal, hmfaysal]
-imagefeature: fourseasons.jpg
+title: Toby
+tags: [me, myself,]
+imagefeature: aboutme.jpg
 chart: true
 ---
-<figure>
-  <img src="{{ site.url }}/images/Toby.jpg" alt="Toby Groves">
-  <figcaption>Toby Groves</figcaption>
-</figure>
 
 {% assign total_words = 0 %}
 {% assign total_readtime = 0 %}
