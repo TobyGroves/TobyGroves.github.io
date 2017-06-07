@@ -1,5 +1,5 @@
-title:            Notepad
-description:      "Blogging is fun"
+title:            Toby Groves
+description:      "The Four Leaf Grover"
 logo:             logo.png
 disqus_shortname: Toby Groves
 share:            true
@@ -11,21 +11,16 @@ url:
 
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
-  avatar:         Toby Groves.jpg
-  email:          Toby Groves@alum.mit.edu
+  name:           Toby Groves
+  avatar:         TobyGroves.jpg
+  email:          No
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    I do stuff and im gonna write about it .
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        Toby Groves
-  facebook:       Toby Groves
-  github:         Toby Groves      
-  instagram:      Toby Groves
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  github:         https://github.com/TobyGroves      
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-39365944-7
+google_analytics:   UA-90937757-4
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -45,7 +40,7 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Dhaka
+timezone:    Europe/London
 future:      true
 rouge: pygments
 markdown:    kramdown
@@ -71,7 +66,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://TobyGroves..github.io'
+  siteurl: 'http://TobyGroves.github.io'
   relativeLinks: 'http://TobyGroves.github.io/links.jsonp'
   media: 'images'
   metadata:
