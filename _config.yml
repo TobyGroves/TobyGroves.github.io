@@ -13,7 +13,6 @@ url:
 owner:
   name:           Toby Groves
   avatar:         TobyGroves.jpg
-  email:          No
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    I do stuff and im gonna write about it .
   # Social networking links used in footer. Update and remove as you like.
@@ -66,7 +65,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://TobyGroves.github.io'
+  siteurl: 'http://thefourleafgrover.co.uk'
   relativeLinks: 'http://TobyGroves.github.io/links.jsonp'
   media: 'images'
   metadata:
