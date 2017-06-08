@@ -5,7 +5,7 @@ description: "A short look at my first try at low poly 3d modeling."
 modified: 2017-06-08
 category: articles
 tags: [Low poly , 3d ]
-imagefeature: LowPoly01.png
+imagefeature: LowPoly/LowPoly01.png
 comments: false
 share: false
 featured: true
