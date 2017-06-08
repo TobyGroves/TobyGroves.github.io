@@ -8,6 +8,7 @@ tags: [Low poly , 3d ]
 imagefeature: LowPoly01.png
 comments: false
 share: false
+featured: true
 ---
 
 I'll start by saying I've never been good at art but allways have loved coding little unfinished games . I allways let my lack of both artistic talent and money to buy assets stop me from finishing the games I code . 
@@ -22,7 +23,7 @@ I started off simple with a low poly square island . I couldn't figure out how t
 
 This looked crap partially because it was in unity and i didnt litght it atall but mainly because I couldn't 3d model ,but I wasnt gonna let that stop me !
 
-Next I thought I'd try and make something that I remember seeing on the <a href="www.reddit.com/r/lowpoly">/r/LowPoly</a> subreddit a few months back . It had trees flowers a bridge and a stream down the middle I thought I'd give it a go . Lo and behold It turned out Ok (to be honest it is alot better than I thought it was gonna be.
+Next I thought I'd try and make something that I remember seeing on the <a href="http://www.reddit.com/r/lowpoly">/r/LowPoly</a> subreddit a few months back . It had trees flowers a bridge and a stream down the middle I thought I'd give it a go . Lo and behold It turned out Ok (to be honest it is alot better than I thought it was gonna be.
 
 ![Better Island with trees]({{ site.url }}/images/LowPoly/LowPoly03.png)
 
@@ -34,7 +35,7 @@ This doesn't look good by any stretch of the imagination but it was good enough 
 
 ![A Building on an island]({{ site.url }}/images/LowPoly/LowPoly05.gif)
 
-I havent got very far with it atall as I did all of this just before exam season started but I like the way it looks and will make this my first finished game I'll put it somewhere like <a href="www.itch.io">itch.io</a> or something when I finish it. 
+I havent got very far with it atall as I did all of this just before exam season started but I like the way it looks and will make this my first finished game I'll put it somewhere like <a href="http://www.itch.io">itch.io</a> or something when I finish it. 
 
 This has been my first Dive into 3D modeling and I've enjoyed it more than I thought I would. I'll make sure to make more post's like this as and when I make some progress in my ability's.
 
