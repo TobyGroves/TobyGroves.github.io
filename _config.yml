@@ -20,23 +20,25 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-90937757-4
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+google_verify:         
 
 # Links to include in footer navigation
 # For external links add external: true
 links:
   - title: Home
     url: /
-    external: false
+    external: True
     icon: home
   - title: Featured Posts
-    url: /featured
+    url: http://thefourleafgrover.co.uk/featured
   - title: Categories
-    url: /categories
+    url: http://thefourleafgrover.co.uk/categories
   - title: About
-    url: /about
+    url: http://thefourleafgrover.co.uk/about
+  - title: Portfolio
+    url: http://thefourleafgrover.co.uk/Portfolio
+  - title: Downloads
+    url: http://thefourleafgrover.co.uk/Downloads
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/London
@@ -109,16 +111,6 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
           alterable: true
       - name: "tags"
         field:
