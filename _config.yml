@@ -30,15 +30,15 @@ links:
     external: True
     icon: home
   - title: Featured Posts
-    url: http://thefourleafgrover.co.uk/featured
+    url: /featured
   - title: Categories
-    url: http://thefourleafgrover.co.uk/categories
+    url: /categories
   - title: About
-    url: http://thefourleafgrover.co.uk/about
+    url: /about
   - title: Portfolio
-    url: http://thefourleafgrover.co.uk/Portfolio
+    url: /Portfolio
   - title: Downloads
-    url: http://thefourleafgrover.co.uk/Downloads
+    url: /Downloads
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/London
