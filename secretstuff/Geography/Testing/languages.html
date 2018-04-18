@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Include the AngularJS library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	    <!-- Modules -->
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="squiggly">
+    <div>
+       <h1> Squiggly Pi</h1>
+    </div>
+    <div ng-controller="languageController">
+		<table align="center">
+			<tr>
+				<td class = "green">
+					<h2>
+						Language
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						minimalStructure
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						standardConsoleOutput
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						integerDeclaration
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						floatingPointDeclarationdoubleOrDecimal
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						stringDeclaration
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						singleLineIf
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						multiLineIf
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						switch
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						whileLoop
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						forLoop
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						enhancedForLoop
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						createAndInitializeAnArray
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						createAndInitializeAList
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						createAndInitializeAMap
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						stringConcatination
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						functionDeclarationNonlambda
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						lambdaExpressionsOrFunctionalInterface
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						defineAClass
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						extendAClass
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						constructor
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						privatePropertyWithGetSet
+					</h2>
+				</td>
+				<td class = "green">
+					<h2>
+						method
+					</h2>
+				</td>
+			</tr>
+			<tr data-ng-repeat="language in languages" class = "black">
+				<td>
+					{{language.language}} 
+				</td>
+				<td>
+					{{language.minimalStructure}}
+				</td>
+				<td >
+					{{language.standardConsoleOutput}}
+				</td>
+				<td>
+					{{language.integerDeclaration}}
+				</td>
+				<td>
+					{{language.floatingPointDeclarationdoubleOrDecimal}}
+				</td>
+				<td>
+					{{language.stringDeclaration}} 
+				</td>
+				<td>
+					{{language.singleLineIf}}
+				</td>
+				<td >
+					{{language.multiLineIf}}
+				</td>
+				<td>
+					{{language.switch}}
+				</td>
+				<td>
+					{{language.whileLoop}}
+				</td>
+				<td>
+					{{language.forLoop}} 
+				</td>
+				<td>
+					{{language.enhancedForLoop}}
+				</td>
+				<td >
+					{{language.createAndInitializeAnArray}}
+				</td>
+				<td>
+					{{language.createAndInitializeAList}}
+				</td>
+				<td>
+					{{language.createAndInitializeAMap}}
+				</td>
+				<td>
+					{{language.stringConcatination}} 
+				</td>
+				<td>
+					{{language.functionDeclarationNonlambda}}
+				</td>
+				<td >
+					{{language.lambdaExpressionsOrFunctionalInterface}}
+				</td>
+				<td>
+					{{language.defineAClass}}
+				</td>
+				<td>
+					{{language.extendAClass}}
+				</td>
+				<td>
+					{{language.constructor}} 
+				</td>
+				<td>
+					{{language.privatePropertyWithGetSet}}
+				</td>
+				<td >
+					{{language.method}}
+				</td>
+			</tr>
+		</table>	
+    </div>
+  </body>
+</html>
