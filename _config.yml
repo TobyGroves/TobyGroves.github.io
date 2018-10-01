@@ -67,8 +67,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://thefourleafgrover.co.uk'
-  relativeLinks: 'http://thefourleafgrover.co.uk/links.jsonp'
+  siteurl: 'http://tobygroves.uk'
+  relativeLinks: 'http://tobygroves.uk/links.jsonp'
   media: 'images'
   metadata:
     _posts:
