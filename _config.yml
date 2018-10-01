@@ -1,5 +1,5 @@
 title:            Toby Groves
-description:      "Portfolio"
+description:      "The Four Leaf Grover"
 logo:             logo.png
 disqus_shortname: Toby Groves
 share:            true
@@ -14,7 +14,7 @@ owner:
   name:           Toby Groves
   avatar:         TobyGroves.jpg
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    I make stuff and I put it here .
+  description:    I do stuff and I'm gonna write about it .
   # Social networking links used in footer. Update and remove as you like.
   github:         https://github.com/TobyGroves      
 
@@ -67,8 +67,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://tobygroves.uk'
-  relativeLinks: 'http://tobygroves.uk/links.jsonp'
+  siteurl: 'http://thefourleafgrover.co.uk'
+  relativeLinks: 'http://thefourleafgrover.co.uk/links.jsonp'
   media: 'images'
   metadata:
     _posts:
