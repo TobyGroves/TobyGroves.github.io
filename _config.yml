@@ -1,22 +1,22 @@
 title:            Toby Groves
-description:      "The Four Leaf Grover"
+description:      "Portfolio"
 logo:             logo.png
 disqus_shortname: Toby Groves
 share:            true
 dropcap:			true
-# Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
-# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:
+
+
+url:             tobygroves.uk
 
 # Owner/author information
 owner:
   name:           Toby Groves
   avatar:         TobyGroves.jpg
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    I do stuff and I'm gonna write about it .
+  description:    This is my portfolio I hope you enjoy it !!
   # Social networking links used in footer. Update and remove as you like.
-  github:         https://github.com/TobyGroves      
+  github:         https://github.com/TobyGroves
+  itchio:         https://baconthebap.itch.io
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-90937757-4
@@ -67,8 +67,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://thefourleafgrover.co.uk'
-  relativeLinks: 'http://thefourleafgrover.co.uk/links.jsonp'
+  siteurl: 'tobygroves.uk'
+  relativeLinks: 'tobygroves.uk/links.jsonp'
   media: 'images'
   metadata:
     _posts:
