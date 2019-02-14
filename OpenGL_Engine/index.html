@@ -85,10 +85,10 @@ body {
 						<h3>TEFGAS (Toby's Engine For Games And Stuff) - OpenGL Engine</h3>
 					</header>
 					<div  align="center">
-						<iframe width="840" height="400" src="https://www.youtube.com/embed/7vRbPWop0KQ">
+						<iframe width="840" height="400" src="https://www.youtube.com/embed/4ET25gtcYhk">
 						</iframe>
 					</div>
-					<header>
+					<header>d
 						<h3>Details</h3>
 					</header>
 					<hr/>
@@ -127,24 +127,26 @@ body {
 					</header>
 					<hr />
 					<p>
-						TEFGAS is a game engine that was iriginally created as a uni assignment but over time its become more and more of a hobby project for me to test new ideas in.
+						TEFGAS is a game engine that was iriginally created as a uni assignment but over time its become more and more of a hobby project for me play about in.
 					</p>
 					<p>
-						So far I have added Ambient , Emmisive , Specular and Diffuse  lighting. My plan is to have a full physics engine in it by feburary reading week.
+						So far I have added Ambient , Emmisive , Specular and Diffuse lighting and Normal Mapping. It also has UI which currently shows a png of Mr Incredible or a Wiggly Line. It also has some rudimentry water.
 					</p>
 					<p>
 						<a href="https://github.com/TobyGroves/Garfield_OpenGL" target="_blank">Click Here</a> to checkout the source code of the engine on github. 
 					</p>
 					<p>
-						My main thing I have learnt so far in this project is the power of shaders. Below is a code snippit of my Specular and Diffuse lighting fragment and vertex shaders (more to come in future). 
+						My main thing I have learnt so far in this project is the power of shaders. Below is a code snippit of my water fragment and vertex 
+						shaders I created a moving texture effect on the water in the fragment shader by using a flow map and noise map and I morphed the 
+						mesh into waves in the vertex shader by using Gerstner Waves. 
 					</p>
 					<table style="width:100%">
 						<tr>
 							<td>
-								<img img src="https://tobygroves.github.io/OpenGL_Engine/images/SpecDiffFrag.PNG" style="width:90%;vertical-align: top;"/>
+								<img img src="https://tobygroves.github.io/OpenGL_Engine/images/waterfrag.PNG" style="width:90%;vertical-align: top;"/>
 							</td>
 							<td>
-								<img img src="https://tobygroves.github.io/OpenGL_Engine/images/SpecDiffVert.PNG" style="width:90%;vertical-align: top;"/>
+								<img img src="https://tobygroves.github.io/OpenGL_Engine/images/watervert.PNG" style="width:90%;vertical-align: top;"/>
 							</td>
 						</tr>
 					</table>
