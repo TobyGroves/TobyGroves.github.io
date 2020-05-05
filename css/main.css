@@ -1,0 +1,39 @@
+body {
+  background-color: #212121;
+}
+h1.main {
+  color: #02C3BD;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 100;
+}
+h1.second {
+  color: #00B9AE;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: lighter;
+
+}
+ul {
+  color: #00B9AE;
+  text-align: left;
+  font-size: 30;
+  font-family: "Roboto";
+  font-weight: lighter;
+}
+a {
+  color: #037171;
+}
+table{
+  color: #043565;
+}
+
+
+marquee{
+  color: #02C4BD;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 100;
+}
