@@ -5,6 +5,62 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
 	</head>
 	<body class="left-sidebar">
 		<div id="page-wrapper">
@@ -16,6 +72,7 @@
 									<li><a href="http://tobygroves.uk/wimborneprobus/index.html" class="current">Home</a></li>
 									<li><a href="http://tobygroves.uk/wimborneprobus/meetings/index.html" class="current">Meetings/Events</a></li>
 									<li><a href="http://tobygroves.uk/wimborneprobus/contact/index.html" class="current">Contact</a></li>
+									<li><a href="http://tobygroves.uk/wimborneprobus/gallery/index.html" class="current">Gallery</a></li>
 								</ul>
 							</nav>
 					</div>
@@ -36,26 +93,52 @@
 													<li><h1>Secretary :</h1>Jeff Davies/Chris Isaac (from Oct)</li>
 													<li><h1>Speaker's Sec. :</h1>David Williams</li>
 													<li><h1>Past Chairman :</h1>Bob Williams</li>
-												</ul>
-											</li>
-											<a href="#" class="image"><img src="images/chairmen.jpg" alt="" style="size : 10%"/></a>
+												</ul><a href="#" class="image"><img src="images/chairmen.jpg" alt="" style="size : 10%"/></a>
+												</br>
 											<li><h3>Monthly Luncheon :</h3> <br/><b>Hamworthy Club <br/>Canford magna <br/>BH213AP <br/>Wimbourne </b><br/><br/> 11:00am for 11:15am <br/> on the first Wednesday of the month except in May and December when we meet at 12:00 noon for 12:45pm</li>
 										<a href="#" class="image"><img src="images/hamworthey.jpg" alt="" style="size : 10%"/></a>
 											</ul>
 									</section>
-
+									
+									
 							</div>
-							<div class="8u 12u(mobile) important(mobile)">
+								<div class="8u 12u(mobile) important(mobile)">
 									<article class="box post">
-									<h2>Meetings and Events</h2>
-									</br>
-									<p>
-										The ordinary monthly meetings and committee meetings are on the first wednesday of each month. There are also two outings organised and two special guest lunches arranged at Remedy Oak Golf Club. There may also be smaller group outings arranged during the year.
-									</p>
-										<iframe src="https://wimbourneminsterprobus.blogspot.com" width = "100%" height = "1000px"></iframe>
+										<header>
+											<h2>Gallery</h2>
+										</header>
+										<p>
+											Here is a collection of pictrues from previous events and meetings.
+										</p>
+										</br>
+										<table>
+										<tr>
+										<td width = "10%">
+										</td>
+										<td>
+										<div class="row"> 
+											<div class="column">
+												<img src="images/image1.jpg" style="width:100%">
+												<img src="images/image2.jpg" style="width:100%">
+												<img src="images/image3.jpg" style="width:100%">
+												<img src="images/image4.jpg" style="width:100%">
+											</div>
+											<div class="column">
+												<img src="images/image5.jpg" style="width:100%">
+												<img src="images/image6.jpg" style="width:100%">
+												<img src="images/image7.jpg" style="width:100%">
+												<img src="images/image8.jpg" style="width:100%">
+											</div>  
+										</div>
+										</td>
+										<td width = "10%">
+										</td>
+										</tr>
+										</table>
+										</br>
 									</article>
+								</div>
 							</div>
-						</div>
 					</div>
 				</div>
 
